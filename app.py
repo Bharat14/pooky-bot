@@ -2,7 +2,7 @@
 from flask import Flask, request
 import telegram
 from telebot.credentials import bot_token, bot_user_name,URL
-from telebot.boy import get_reply
+from telebot.bot import get_reply
 import re
 
 global bot
