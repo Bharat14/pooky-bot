@@ -16,6 +16,6 @@ def get_reply(text):
     elif text == "/introduceme":
         msg = "https://bookofpook.com/ \n https://therationalmale.com/ \n https://www.youtube.com/channel/UC8eLDzfH6YfZRDbDuMsNWiA \n https://www.youtube.com/user/EntrepreneursInCars"
         return msg
-    else
+    else:
         msg = "Unhandled "+text+" Unhandled"
         return msg
