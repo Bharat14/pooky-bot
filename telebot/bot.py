@@ -17,5 +17,5 @@ def get_reply(text):
         msg = "https://bookofpook.com/ \n https://therationalmale.com/ \n https://www.youtube.com/channel/UC8eLDzfH6YfZRDbDuMsNWiA \n https://www.youtube.com/user/EntrepreneursInCars"
         return msg
     else:
-        msg = "Unhandled "+text+" Unhandled"
+        msg = ""
         return msg
